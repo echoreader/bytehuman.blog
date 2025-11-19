@@ -1,10 +1,12 @@
 import { defineConfig, presetUno, presetAttributify, presetIcons } from 'unocss'
+//import { presetTypography } from '@unocss/preset-typography'
 
 export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify(),
     presetIcons(),
+    //presetTypography(),
   ],
   content: {
     pipeline: {

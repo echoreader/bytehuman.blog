@@ -2,7 +2,73 @@
 layout: default
 ---
 
-<article>
-  {% include post-header.html post=page %}
-  {{ content }}
+{% capture site_url %}
+  {% include site_url.html %}
+{% endcapture %}
+{% assign site_url = site_url | strip %}
+
+<nav class="text-sm text-gray-600 mb-4">
+  <a href="{{ site_url }}/" class="hover:underline">Home</a>
+  {% if page.category %}
+    &gt; <span class="text-gray-800">{{ page.category }}</span>
+    &gt; <span class="text-gray-800 font-semibold">{{ page.title }}</span>
+  {% else %}
+    &gt; <span class="text-gray-800 font-semibold">{{ page.title }}</span>
+  {% endif %}
+</nav>
+
+{% assign posts = site.pages 
+  | where: "layout", "post" 
+  | where_exp: "item", "item.path contains 'posts'" 
+  | sort: "date" 
+  | reverse %}
+
+{% assign current_index = nil %}
+{% for p in posts %}
+  {% if p.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+<article class="prose lg:prose-xl">
+  <h1>
+    <a href="{{ site_url }}{{ page.url }}" class="no-underline hover:text-purple-900">
+      {{ page.title }}
+    </a>
+  </h1>
+  <p class="text-sm text-gray-500">
+    {{ page.date | date: "%B %d, %Y" }}
+
+    {% if page.author %}
+      &nbsp;•&nbsp; Author: <span class="text-gray-700">{{ page.author }}</span>
+    {% else %}
+      &nbsp;•&nbsp; Author: <span class="text-gray-700">Echo Reader</span>
+    {% endif %}
+  </p>
+
+  {{ content | replace: '<table>', '<div class="overflow-auto"><table>' | replace: '</table>', '</table></div>' }}
 </article>
+
+{% if page.tags %}
+  <div class="mt-8 text-sm text-gray-600">
+    <strong>Tags:</strong>
+    {% for tag in page.tags %}
+      <span class="inline-block bg-gray-100 text-gray-800 px-2 py-1 rounded mr-2">{{ tag }}</span>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% assign prev_index = current_index | minus: 1 %}
+{% assign next_index = current_index | plus: 1 %}
+
+<nav class="flex justify-between mt-8">
+  {% if prev_index >= 0 %}
+    {% assign prev_post = posts[prev_index] %}
+    <a href="{{ site_url }}{{ prev_post.url }}">&laquo; {{ prev_post.title }}</a>
+  {% endif %}
+
+  {% if next_index < posts.size %}
+    {% assign next_post = posts[next_index] %}
+    <a href="{{ site_url }}{{ next_post.url }}">{{ next_post.title }} &raquo;</a>
+  {% endif %}
+</nav>

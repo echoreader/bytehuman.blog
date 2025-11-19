@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "ByteHuman Articles — Culture, Tech & Insights for Curious Minds"
+title: "ByteHuman Articles — Page 2"
 description: "Explore ByteHuman articles on culture, tech, and digital life from human stories to gear reviews, decoding the pulse of modern society and innovation."
-page_number: 1
+page_number: 2
 ---
 
 {% capture site_url %}
@@ -51,6 +51,14 @@ page_number: 1
   {% endfor %}
 
   <nav class="pagination flex justify-between mt-6">
+    {% if page_number > 1 %}
+      {% if page_number == 2 %}
+        <a href="{{ site_url }}/blog/">&laquo; Prev</a>
+      {% else %}
+        <a href="{{ site_url }}/blog/page{{ page_number | minus: 1 }}/">&laquo; Prev</a>
+      {% endif %}
+    {% endif %}
+
     <span>Page {{ page_number }} of {{ total_pages }}</span>
 
     {% if page_number < total_pages %}
@@ -58,3 +66,4 @@ page_number: 1
     {% endif %}
   </nav>
 </section>
+

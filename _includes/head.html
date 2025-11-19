@@ -21,13 +21,11 @@ crossorigin="anonymous"></script>
 <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any">
 
 <!-- 5. Schema Markup -->
-{% if page.schema == "organization" %}
-  {% include schema/organization.html %}
-{% elsif page.schema == "profilepage" %}
-  {% include schema/profilepage.html %}  
-{% elsif page.schema == "article" %}
-  {% include schema/article.html %}  
-{% endif %}  
+{% if page.schema %}
+  {% for s in page.schema %}
+    {% include schema/{{ s }}.html %}
+  {% endfor %}
+{% endif %}
 
 <!-- 6. Cloudflare beacon script -->
 <script>

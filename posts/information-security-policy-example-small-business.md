@@ -5,6 +5,15 @@ layout: post
 permalink: /information-security-policy-example-small-business/
 date: 2025-11-10
 schema: article
+category: security-policy
+tags:
+  - information-security
+  - policy-template
+  - risk-management
+schema: 
+  - article
+  - breadcrumb
+author: Echo Reader
 ---
 
 Hey, I run a small marketing agency with 12 people scattered across three states, and a few years ago I learned the hard way that *“we’re too small to be hacked”* is a myth. A single phishing email cost me $8,000 and two sleepless weeks. That’s when I built my first **information security policy** from scratch. In this guide, I’m handing you the exact **security policy example** I still use battle-tested, plain-English, and sized for a **small business** like yours. No 50-page corporate jargon. Just a practical **IT policy template** you can copy, tweak, and roll out before lunch.
