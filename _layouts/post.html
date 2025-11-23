@@ -64,11 +64,13 @@ layout: default
 <nav class="flex justify-between mt-8">
   {% if prev_index >= 0 %}
     {% assign prev_post = posts[prev_index] %}
-    <a href="{{ site_url }}{{ prev_post.url }}">&laquo; {{ prev_post.title }}</a>
+    <span class="mr-2">&laquo;</span>
+    <a href="{{ site_url }}{{ prev_post.url }}">{{ prev_post.title }}</a>
   {% endif %}
 
   {% if next_index < posts.size %}
     {% assign next_post = posts[next_index] %}
-    <a href="{{ site_url }}{{ next_post.url }}">{{ next_post.title }} &raquo;</a>
+    <a href="{{ site_url }}{{ next_post.url }}">{{ next_post.title }}</a>
+    <span class="ml-2">&raquo;</span>
   {% endif %}
 </nav>
