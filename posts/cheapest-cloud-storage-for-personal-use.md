@@ -12,6 +12,7 @@ tags:
 schema: 
   - article
   - breadcrumb
+  - faq
 author: Echo Reader
 ---
 
@@ -141,20 +142,30 @@ Even with the **cheapest cloud storage**, smart habits stretch your dollars:
 
 ## FAQ
 
-**What's the absolute cheapest cloud storage for personal use?**  
-For basics, iCloud's 50GB at $0.99/month or IDrive Mini at $2.95/year. Scale up with IDrive's 5TB for under $6/month equivalent.
+<details>
+  <summary>What's the absolute cheapest cloud storage for personal use?</summary>
+  <p>For basics, <strong>iCloud's 50GB at $0.99/month</strong> or <strong>IDrive Mini at $2.95/year</strong>. Scale up with IDrive's 5TB for under $6/month equivalent.</p>
+</details>
 
-**Is free cloud storage really secure?**  
-Yes, if you enable 2FA and avoid sharing sensitive stuff. MEGA's end-to-end shines here, but always read the privacy policy.
+<details>
+  <summary>Is free cloud storage really secure?</summary>
+  <p>Yes, if you enable <strong>2FA</strong> and avoid sharing sensitive stuff. <strong>MEGA's end-to-end</strong> shines here, but always read the privacy policy.</p>
+</details>
 
-**Should I go for a lifetime plan?**  
-If you're committed long-term, absolutely pCloud's deals pay off in 2-3 years. Just vet the company's track record.
+<details>
+  <summary>Should I go for a lifetime plan?</summary>
+  <p>If you're committed long-term, absolutely—<strong>pCloud's deals pay off in 2-3 years</strong>. Just vet the company's track record.</p>
+</details>
 
-**How does cloud storage pricing compare across providers?**  
-Google and iCloud lead for small tiers; IDrive dominates large-scale **budget cloud storage**. Check my tables for details.
+<details>
+  <summary>How does cloud storage pricing compare across providers?</summary>
+  <p><strong>Google</strong> and <strong>iCloud</strong> lead for small tiers; <strong>IDrive</strong> dominates large-scale <strong>budget cloud storage</strong>. Check my tables for details.</p>
+</details>
 
-**Can I use multiple services?**  
-Totally I do! Google for sync, IDrive for backups. It maximizes free tiers without overlap.
+<details>
+  <summary>Can I use multiple services?</summary>
+  <p>Totally—I do! <strong>Google for sync</strong>, <strong>IDrive for backups</strong>. It maximizes free tiers without overlap.</p>
+</details>
 
 ## Wrapping It Up: Your Path to Worry-Free Cloud Storage
 

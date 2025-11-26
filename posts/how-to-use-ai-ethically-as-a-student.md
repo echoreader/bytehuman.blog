@@ -11,6 +11,7 @@ tags:
 schema: 
   - article
   - breadcrumb
+  - faq
 author: Echo Reader
 ---
 
@@ -129,7 +130,7 @@ Many AI models can reflect biases found in the data they were trained on. Being 
 
 Bias awareness helps me produce balanced, thoughtful work.
 
-# **Practical Ways I Use AI Ethically in Daily Academic Life**
+## **Practical Ways I Use AI Ethically in Daily Academic Life**
 
 ### **Research Support**
 
@@ -147,7 +148,7 @@ I use AI to organize study schedules and break assignments into manageable tasks
 
 AI helps me fill knowledge gaps when I cannot immediately reach a tutor or instructor.
 
-# **Key Takeaways**
+## **Key Takeaways**
 
 * Ethical AI use strengthens academic integrity
 * Transparency and attribution are essential
@@ -158,28 +159,33 @@ AI helps me fill knowledge gaps when I cannot immediately reach a tutor or instr
 * Bias awareness improves fairness
 * AI should enhance learning, not replace it
 
-# **Frequently Asked Questions**
+## **Frequently Asked Questions**
 
-### **Is using AI considered cheating**
+<details>
+  <summary>Is using AI considered cheating?</summary>
+  <p>Not when I follow my school’s policy, use it as a support tool, and avoid submitting AI generated content as my own.</p>
+</details>
 
-Not when I follow my school’s policy, use it as a support tool, and avoid submitting AI generated content as my own.
+<details>
+  <summary>Do instructors allow AI in assignments?</summary>
+  <p>Many do, but the rules vary. I always check before starting any project.</p>
+</details>
 
-### **Do instructors allow AI in assignments**
+<details>
+  <summary>Should I cite AI tools?</summary>
+  <p>If the tool influenced my assignment, I disclose it according to instructor or institutional guidelines.</p>
+</details>
 
-Many do, but the rules vary. I always check before starting any project.
+<details>
+  <summary>How can I avoid plagiarism when using AI?</summary>
+  <p>I rewrite content, use my own interpretations, and verify facts from reliable sources.</p>
+</details>
 
-### **Should I cite AI tools**
+<details>
+  <summary>Is AI safe for storing personal data?</summary>
+  <p>Not always. I avoid entering private details unless the tool is approved by my school.</p>
+</details>
 
-If the tool influenced my assignment, I disclose it according to instructor or institutional guidelines.
-
-### **How can I avoid plagiarism when using AI**
-
-I rewrite content, use my own interpretations, and verify facts from reliable sources.
-
-### **Is AI safe for storing personal data**
-
-Not always. I avoid entering private details unless the tool is approved by my school.
-
-# **Conclusion**
+## **Conclusion**
 
 Using AI ethically as a student helps me learn more effectively while maintaining academic integrity. By being transparent, protecting my original work, verifying information, and respecting institutional policies, I can use AI responsibly without compromising my values. When I use AI the right way, it becomes a tool that strengthens my education, boosts my confidence, and helps me grow as a learner.

@@ -12,6 +12,7 @@ tags:
 schema: 
   - article
   - breadcrumb
+  - faq
 author: Echo Reader
 ---
 
@@ -113,59 +114,26 @@ Not every company needs one, but you must know if you do.
 *   **Document Everything:** The **accountability** principle means you must be able to *demonstrate* your compliance through records, policies, and assessments.
 *   **Compliance is a Journey, Not a Destination:** This requires ongoing monitoring, review, and adaptation as your business and the law evolve.
 
-<section itemtype="https://schema.org/FAQPage" itemscope>
-  <h2>FAQ About GDPR Compliance</h2>
-  <style>
-    details {
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      padding: 10px;
-      margin-bottom: 10px;
-      background: #fefefe;
-    }
-    summary {
-      font-weight: bold;
-      cursor: pointer;
-    }
-  </style>
+## FAQ About GDPR Compliance
 
-  <details itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-    <summary itemprop="name">1. What are the penalties for non-compliance with GDPR?</summary>
-    <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-      <div itemprop="text">
-        <p>Fines can be severe, designed to be "effective, proportionate, and dissuasive." They can reach up to €20 million or 4% of the company's global annual turnover of the preceding financial year, whichever is higher. Beyond fines, the reputational damage and loss of user trust can be even more costly.</p>
-      </div>
-    </div>
-  </details>
+<details>
+  <summary>What are the penalties for non-compliance with GDPR?</summary>
+  <p>Fines can be severe, designed to be "effective, proportionate, and dissuasive." They can reach up to <strong>€20 million</strong> or <strong>4% of the company's global annual turnover</strong> of the preceding financial year, whichever is higher. Beyond fines, the reputational damage and loss of user trust can be even more costly.</p>
+</details>
 
-  <details itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-    <summary itemprop="name">2. Do I need to hire a full-time Data Protection Officer (DPO)?</summary>
-    <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-      <div itemprop="text">
-        <p>Not necessarily. The requirement to appoint a Data Protection Officer (DPO) is based on your core activities, not your size. Many small and medium-sized businesses can outsource this role to an external consultant, which is a perfectly valid and often more cost-effective solution.</p>
-      </div>
-    </div>
-  </details>
+<details>
+  <summary>Do I need to hire a full-time Data Protection Officer (DPO)?</summary>
+  <p>Not necessarily. The requirement to appoint a <strong>Data Protection Officer (DPO)</strong> is based on your core activities, not your size. Many small and medium-sized businesses can outsource this role to an external consultant, which is a perfectly valid and often more cost-effective solution.</p>
+</details>
 
-  <details itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-    <summary itemprop="name">3. What is the single most common mistake businesses make?</summary>
-    <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-      <div itemprop="text">
-        <p>Treating the GDPR as a one-time, IT-only project. The most successful compliance frameworks are woven into the fabric of the business, from marketing and sales to product development. As one EU regulator famously stated, "Compliance is not a checkbox; it is a culture." The second biggest mistake is failing to properly document the lawful basis for processing.</p>
-      </div>
-    </div>
-  </details>
+<details>
+  <summary>What is the single most common mistake businesses make?</summary>
+  <p>Treating the GDPR as a one-time, IT-only project. The most successful compliance frameworks are woven into the fabric of the business, from marketing and sales to product development. As one EU regulator famously stated, "Compliance is not a checkbox; it is a culture." The second biggest mistake is failing to properly <strong>document the lawful basis for processing</strong>.</p>
+</details>
 
-  <details itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-    <summary itemprop="name">4. How does GDPR affect my use of tools like Google Analytics?</summary>
-    <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-      <div itemprop="text">
-        <p>Significantly. Tools like Google Analytics process personal data (like IP addresses). To use them lawfully, you must have a valid lawful basis (often consent via a cookie banner), provide clear information in your privacy policy, and have a signed Controller-Processor Contract in place with the vendor.</p>
-      </div>
-    </div>
-  </details>
-</section>
-
-***
+<details>
+  <summary>How does GDPR affect my use of tools like Google Analytics?</summary>
+  <p>Significantly. Tools like Google Analytics process personal data (like IP addresses). To use them lawfully, you must have a valid <strong>lawful basis</strong> (often consent via a cookie banner), provide clear information in your privacy policy, and have a signed <strong>Controller-Processor Contract</strong> in place with the vendor.</p>
+</details>
 
 Navigating the **General Data Protection Regulation** can feel daunting, but it ultimately leads to a stronger, more trustworthy business. By methodically working through this checklist, you're not just avoiding fines you're building a foundation of respect and transparency with your customers that will pay dividends for years to come. Start with your data map, and take it one step at a time. You've got this.

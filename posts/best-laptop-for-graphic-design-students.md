@@ -11,6 +11,7 @@ tags:
 schema: 
   - article
   - breadcrumb
+  - faq
 author: Echo Reader
 ---
 
@@ -113,19 +114,29 @@ You don’t need to spend $2,000+. These crush Photoshop/Illustrator/Figma for m
 
 ## Frequently Asked Questions
 
-**What’s the best laptop for graphic design students on a budget?**  
-The 15-inch MacBook Air M4 (16GB/512GB) for ~$1,499 (or less with education discount). It handles everything 95% of students throw at it and has an amazing screen.
+<details>
+  <summary>What’s the best laptop for graphic design students on a budget?</summary>
+  <p>The 15-inch <strong>MacBook Air M4 (16GB/512GB)</strong> for ~$1,499 (or less with education discount). It handles everything 95% of students throw at it and has an amazing screen.</p>
+</details>
 
-**Do I really need a Mac?**  
-No. But you’ll have fewer headaches with color management and battery life. The ASUS ProArt line has finally caught up though.
+<details>
+  <summary>Do I really need a Mac?</summary>
+  <p>No. But you’ll have fewer headaches with <strong>color management</strong> and <strong>battery life</strong>. The ASUS ProArt line has finally caught up though.</p>
+</details>
 
-**Is 16GB RAM enough in 2025?**  
-Yes for most student work. I only upgrade to 32GB when doing 4K video editing or heavy 3D.
+<details>
+  <summary>Is 16GB RAM enough in 2025?</summary>
+  <p><strong>Yes for most student work.</strong> I only upgrade to 32GB when doing 4K video editing or heavy 3D.</p>
+</details>
 
-**Should I get the 14-inch or 16-inch MacBook Pro?**  
-14-inch if you carry it everywhere. 16-inch if you do video or want the best speakers/screen ever made.
+<details>
+  <summary>Should I get the 14-inch or 16-inch MacBook Pro?</summary>
+  <p><strong>14-inch</strong> if you carry it everywhere. <strong>16-inch</strong> if you do video or want the best speakers/screen ever made.</p>
+</details>
 
-**Windows laptop with pen support for drawing?**  
-ASUS ProArt PX13 or Lenovo Yoga Pro 9i. Both have excellent pens and 120Hz OLED screens.
+<details>
+  <summary>Windows laptop with pen support for drawing?</summary>
+  <p><strong>ASUS ProArt PX13</strong> or <strong>Lenovo Yoga Pro 9i</strong>. Both have excellent pens and 120Hz OLED screens.</p>
+</details>
 
 There you go. I wish someone had handed me this list when I started college I would have saved so much time and money. Choose any of the machines above and you’ll be set for the next 4–5 years. Happy designing! 🚀

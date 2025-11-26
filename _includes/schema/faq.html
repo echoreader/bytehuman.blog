@@ -1,0 +1,22 @@
+{% if page.content %}
+  {% assign faqs = page.content | split:"<details" %}
+  {% if faqs.size > 1 %}
+<script type="application/ld+json">{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {% for block in faqs %}
+      {% if block contains "<summary" %}
+        {% assign question = block | split:"</summary>" | first | replace:"<summary>","" | strip | strip_html %}
+        {% assign answer = block | split:"</summary>" | last | split:"</details>" | first | strip | strip_html %}
+        {
+          "@type":"Question",
+          "name":"{{ question }}",
+          "acceptedAnswer":{"@type":"Answer","text":"{{ answer }}"}
+        }{% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+  ]
+}</script>
+  {% endif %}
+{% endif %}

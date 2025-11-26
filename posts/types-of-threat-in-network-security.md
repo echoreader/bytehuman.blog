@@ -12,6 +12,7 @@ tags:
 schema: 
   - article
   - breadcrumb
+  - faq
 author: Echo Reader
 ---
 
@@ -118,14 +119,22 @@ Looking ahead, I'm watching the convergence of AI-powered attacks, where threat 
 
 ## Frequently Asked Questions (FAQ)
 
-**Q: What is the most common type of network security threat today?**
-A: In my professional experience, **phishing** remains the most common and effective initial attack vector. It's cheap for attackers to execute and preys on the one element present in every network: people.
+<details>
+  <summary>What is the most common type of network security threat today?</summary>
+  <p>In my professional experience, <strong>phishing</strong> remains the most common and effective initial attack vector. It's cheap for attackers to execute and preys on the one element present in every network: people.</p>
+</details>
 
-**Q: Are insider threats really that common?**
-A: While less frequent than external attacks, **insider threats** are often the most costly and damaging. A malicious insider already has access and knows where the valuable data resides, bypassing many perimeter defenses.
+<details>
+  <summary>Are insider threats really that common?</summary>
+  <p>While less frequent than external attacks, <strong>insider threats</strong> are often the most costly and damaging. A malicious insider already has access and knows where the valuable data resides, bypassing many perimeter defenses.</p>
+</details>
 
-**Q: What's the difference between a virus and a worm?**
-A: The key difference is propagation. A **virus** requires a human action to spread (like running a program), while a **worm** is a standalone program that self-replicates across a **network** automatically.
+<details>
+  <summary>What's the difference between a virus and a worm?</summary>
+  <p>The key difference is propagation. A <strong>virus</strong> requires a human action to spread (like running a program), while a <strong>worm</strong> is a standalone program that self-replicates across a <strong>network</strong> automatically.</p>
+</details>
 
-**Q: How can a small business with a limited budget start defending itself?**
-A: Focus on the fundamentals, which are often free or low-cost: 1) Train your employees on **phishing**, 2) Enforce strong, unique passwords and enable **multi-factor authentication (MFA)** everywhere possible, and 3) Ensure all your software and systems are consistently patched and updated. These three steps will protect you from a vast majority of common **cybersecurity threats**.
+<details>
+  <summary>How can a small business with a limited budget start defending itself?</summary>
+  <p>Focus on the fundamentals, which are often free or low-cost: 1) Train your employees on <strong>phishing</strong>, 2) Enforce strong, unique passwords and enable <strong>multi-factor authentication (MFA)</strong> everywhere possible, and 3) Ensure all your software and systems are consistently patched and updated. These three steps will protect you from a vast majority of common <strong>cybersecurity threats</strong>.</p>
+</details>

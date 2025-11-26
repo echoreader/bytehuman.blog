@@ -11,6 +11,7 @@ tags:
 schema: 
   - article
   - breadcrumb
+  - faq
 author: Echo Reader
 ---
 
@@ -118,14 +119,22 @@ The future is bright. I'm watching the progress in **quantum hardware**, the dev
 
 ## Frequently Asked Questions (FAQ)
 
-**Q: When will I have a quantum computer on my desk?**
-A: Almost certainly never. **Quantum computers** require extreme, specialized environments to function. We will access their power through the cloud, much like we use supercomputers today.
+<details>
+  <summary>When will I have a quantum computer on my desk?</summary>
+  <p>Almost certainly never. <strong>Quantum computers</strong> require extreme, specialized environments to function. We will access their power through the cloud, much like we use supercomputers today.</p>
+</details>
 
-**Q: Will quantum computers break Bitcoin?**
-A: Eventually, yes. Bitcoin's security relies on cryptographic problems that **Shor's algorithm** can break. However, the transition to quantum-resistant encryption is already underway, and this threat is likely decades away from being practical.
+<details>
+  <summary>Will quantum computers break Bitcoin?</summary>
+  <p>Eventually, yes. Bitcoin's security relies on cryptographic problems that <strong>Shor's algorithm</strong> can break. However, the transition to quantum-resistant encryption is already underway, and this threat is likely decades away from being practical.</p>
+</details>
 
-**Q: Are quantum computers just "faster" computers?**
-A: This is a common misconception. They are not universally faster. For tasks like word processing or web browsing, your classical computer will always be superior. **Quantum speedup** is specific to certain mathematical problems.
+<details>
+  <summary>Are quantum computers just "faster" computers?</summary>
+  <p>This is a common misconception. They are not universally faster. For tasks like word processing or web browsing, your classical computer will always be superior. <strong>Quantum speedup</strong> is specific to certain mathematical problems.</p>
+</details>
 
-**Q: How many qubits are needed to be useful?**
-A: It's not just about the raw number. The quality of **qubits** (their coherence time and error rates) is just as important. We need thousands of high-fidelity **qubits** for impactful, error-corrected computations, a milestone we are steadily approaching.
+<details>
+  <summary>How many qubits are needed to be useful?</summary>
+  <p>It's not just about the raw number. The quality of <strong>qubits</strong> (their coherence time and error rates) is just as important. We need thousands of high-fidelity <strong>qubits</strong> for impactful, error-corrected computations, a milestone we are steadily approaching.</p>
+</details>

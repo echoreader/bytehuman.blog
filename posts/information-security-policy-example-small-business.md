@@ -13,6 +13,7 @@ tags:
 schema: 
   - article
   - breadcrumb
+  - faq
 author: Echo Reader
 ---
 
@@ -220,20 +221,30 @@ Total for 12 users: ~$180/month. Less than one lost laptop.
 
 ## FAQ
 
-**Do I really need a written policy if we’re only 5 people?**  
-Yes. Courts, insurers, and clients ask for it. My one-pager closed a $50k deal last year.
+<details>
+  <summary>Do I really need a written policy if we’re only 5 people?</summary>
+  <p>Yes. Courts, insurers, and clients ask for it. My one-pager closed a $50k deal last year.</p>
+</details>
 
-**What if an employee ignores the BYOD policy?**  
-First offense: warning + training. Second: lose reimbursement, use company device. I’ve enforced it twice no hard feelings.
+<details>
+  <summary>What if an employee ignores the BYOD policy?</summary>
+  <p>First offense: warning + training. Second: lose reimbursement, use company device. I’ve enforced it twice—no hard feelings.</p>
+</details>
 
-**How often should I update the policy?**  
-Annually or after any breach/tool change. I version it in Google Docs (v1.0, v1.1…).
+<details>
+  <summary>How often should I update the policy?</summary>
+  <p>Annually or after any breach/tool change. I version it in Google Docs (v1.0, v1.1…).</p>
+</details>
 
-**Can I use free tools instead of paid?**  
-For passwords (Bitwarden) and backup (Google Drive), yes but accept the limits. I pay for peace of mind.
+<details>
+  <summary>Can I use free tools instead of paid?</summary>
+  <p>For passwords (Bitwarden) and backup (Google Drive), yes—but accept the limits. I pay for peace of mind.</p>
+</details>
 
-**Where do I store the policy so everyone sees it?**  
-Notion page + signed PDF in HR folder. Link it in Slack #announcements.
+<details>
+  <summary>Where do I store the policy so everyone sees it?</summary>
+  <p>Notion page + signed PDF in HR folder. Link it in Slack #announcements.</p>
+</details>
 
 ## Conclusion: Your 30-Day Action Plan
 
