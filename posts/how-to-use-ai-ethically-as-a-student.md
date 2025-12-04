@@ -4,7 +4,7 @@ description: "Master the art of using AI ethically in your studies. Find valuabl
 layout: post
 permalink: /how-to-use-ai-ethically-as-a-student/
 date: 2025-11-24
-category: Technology-Ethics
+category: technology-ethics
 tags:
   - responsible-ai
   - student-guide
@@ -25,7 +25,7 @@ I have learned that the ethical use of AI is not only about following rules. It 
 
 Some of the reasons ethical AI use matters include
 
-* Respecting **academic integrity**
+* Respecting [**academic integrity**](https://bytehuman.blog/core-principles-of-academic-integrity/)
 * Protecting my **intellectual ownership**
 * Avoiding **plagiarism**
 * Maintaining **transparency** with instructors

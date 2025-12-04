@@ -3,27 +3,12 @@ lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
-# echoreader.github.io > bytehuman.blog
 url: "https://bytehuman.blog"
-baseurl: ""  # kosong kalau di root
-
-#plugins:
-  #- jekyll-feed
-  #- jekyll-gist
-  #- jekyll-paginate
-  #- jekyll-seo-tag
-
-#paginate: 5
-#paginate_path: "/blog/page:num/"
+baseurl: ""
 
 include:
   - assets
   - assets/css/unocss.css
 
 kramdown:
-  # Opsi 1: Menetapkan karakter 'quot' untuk double quotes lurus
   smart_quotes: ["lsquo", "rsquo", "quot", "quot"]
-  
-  # Opsi 2: Menonaktifkan fitur smartypants Kramdown (jika tersedia/didukung)
-  # Menggunakan Opsi 1 lebih umum untuk hanya mengontrol quotes.
-

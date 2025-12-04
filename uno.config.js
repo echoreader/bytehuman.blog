@@ -1,12 +1,10 @@
 import { defineConfig, presetUno, presetAttributify, presetIcons } from 'unocss'
-//import { presetTypography } from '@unocss/preset-typography'
 
 export default defineConfig({
   presets: [
     presetUno(),
     presetAttributify(),
     presetIcons(),
-    //presetTypography(),
   ],
   content: {
     pipeline: {
@@ -23,7 +21,14 @@ export default defineConfig({
   preflights: [
     {
       getCSS: () => `
-        body { font-family: 'Open Sans', system-ui, sans-serif; }
+        html {
+          overflow-y: scroll;
+        }
+
+        body { 
+          font-family: 'Open Sans', system-ui, sans-serif; 
+        }
+
         table { 
           border-collapse: collapse; 
           width: 100%; 
@@ -51,9 +56,18 @@ export default defineConfig({
           overflow-x: auto; 
           -webkit-overflow-scrolling: touch; 
         }
-        blockquote { border-left: 4px solid #828282; padding-left: 12px; font-style: italic; }
-        details { margin-bottom: 1rem; }
-        summary { cursor: pointer; font-weight: bold; }
+        
+        blockquote { 
+          border-left: 4px solid #828282; padding-left: 12px; font-style: italic; 
+        }
+        
+        details { 
+          margin-bottom: 1rem; 
+        }
+        
+        summary { 
+          cursor: pointer; font-weight: bold; 
+        }
       `,
     },
   ]
