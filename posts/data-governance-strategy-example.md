@@ -6,9 +6,8 @@ permalink: /data-governance-strategy-example/
 date: 2025-10-17
 category: data-management
 tags:
-  - data-governance
-  - data-policy
-  - data-stewardship
+  - data-governance-strategies
+  - data-management-processes
 schema: 
   - article
   - breadcrumb

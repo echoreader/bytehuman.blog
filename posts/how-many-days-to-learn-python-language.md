@@ -4,10 +4,9 @@ description: "Discover how many days it takes to learn Python! Our guide breaks 
 layout: post
 permalink: /how-many-days-to-learn-python-language/
 date: 2025-10-29
-category: learning-path
+category: programming
 tags:
-  - programming-basics
-  - learning-timeline
+  - learning-process
   - python
 schema: 
   - article

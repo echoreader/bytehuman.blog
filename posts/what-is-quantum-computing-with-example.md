@@ -4,10 +4,9 @@ description: "Discover the fascinating world of quantum computing! Explore its p
 layout: post
 permalink: /what-is-quantum-computing-with-example/
 date: 2025-11-03
-category: emerging-tech
+category: science
 tags:
   - quantum-computing
-  - future-tech
 schema: 
   - article
   - breadcrumb

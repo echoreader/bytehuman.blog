@@ -4,11 +4,11 @@ description: "Discover cutting-edge AI tools designed to enhance customer servic
 layout: post
 permalink: /ai-tools-for-customer-service/
 date: 2025-10-24
-category: ai-tools
+category: artificial-intelligence
 tags:
-  - conversational-ai
-  - chatbots
-  - ai
+  - ai-tools
+  - customer-service
+  - operations
 schema: 
   - article
   - breadcrumb

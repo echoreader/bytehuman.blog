@@ -8,7 +8,6 @@ category: science
 tags:
   - nanotechnology
   - richard-feynman
-  - history
 schema: 
   - article
   - breadcrumb

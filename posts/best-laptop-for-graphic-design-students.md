@@ -4,7 +4,7 @@ description: "Unleash your creativity with our guide to the best laptops for gra
 layout: post
 permalink: /best-laptop-for-graphic-design-students/
 date: 2025-11-18
-category: hardware-guide
+category: computers-electronics
 tags:
   - graphic-design
   - laptops

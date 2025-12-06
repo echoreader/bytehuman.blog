@@ -4,11 +4,11 @@ description: "Explore top AI chatbots designed for roleplay. Enhance your storyt
 layout: post
 permalink: /best-ai-chatbot-for-roleplay/
 date: 2025-10-22
-category: ai-tools
+category: artificial-intelligence
 tags:
-  - conversational-ai
-  - chatbots
-  - ai
+  - ai-chatbots
+  - character-interactions
+  - dialogue
 schema: 
   - article
   - breadcrumb

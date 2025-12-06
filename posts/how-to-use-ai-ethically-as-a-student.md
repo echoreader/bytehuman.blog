@@ -4,10 +4,10 @@ description: "Master the art of using AI ethically in your studies. Find valuabl
 layout: post
 permalink: /how-to-use-ai-ethically-as-a-student/
 date: 2025-11-24
-category: technology-ethics
+category: artificial-intelligence
 tags:
-  - responsible-ai
-  - student-guide
+  - ai
+  - ai-integration
 schema: 
   - article
   - breadcrumb

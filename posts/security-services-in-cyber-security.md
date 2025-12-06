@@ -4,11 +4,10 @@ description: "Worried about cyber threats? Learn how top-notch security services
 layout: post
 permalink: /security-services-in-cyber-security/
 date: 2025-10-12
-category: cybersecurity
+category: network-security
 tags:
+  - cyber-threats
   - security-services
-  - mdr
-  - managed-security
 schema: 
   - article
   - breadcrumb

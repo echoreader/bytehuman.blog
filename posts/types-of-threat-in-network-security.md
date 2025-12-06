@@ -4,11 +4,10 @@ description: "Explore the key types of threats in network security. Understand t
 layout: post
 permalink: /types-of-threat-in-network-security/
 date: 2025-11-06
-category: threats
+category: network-security
 tags:
-  - network-security
+  - network
   - threats
-  - intrusion
 schema: 
   - article
   - breadcrumb

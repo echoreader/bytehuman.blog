@@ -4,10 +4,10 @@ description: "Dive into the core principles of academic integrity! Learn why hon
 layout: post
 permalink: /core-principles-of-academic-integrity/
 date: 2025-12-02
-category: technology-ethics
+category: education
 tags:
-  - responsible-ai
-  - student-guide
+  - principles
+  - integrity
 schema: 
   - article
   - breadcrumb

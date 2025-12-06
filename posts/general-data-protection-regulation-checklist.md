@@ -4,11 +4,10 @@ description: "Ensure compliance with our comprehensive GDPR checklist. Simplify 
 layout: post
 permalink: /general-data-protection-regulation-checklist/
 date: 2025-10-11
-category: privacy-compliance
+category: law-government
 tags:
-  - data-protection
+  - data-protection-efforts
   - gdpr
-  - legal-checklist
 schema: 
   - article
   - breadcrumb

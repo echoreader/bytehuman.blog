@@ -4,11 +4,10 @@ description: "Unlock your potential with Google free machine learning certificat
 layout: post
 permalink: /google-machine-learning-certification-free/
 date: 2025-10-23
-category: certifications
+category: machine-learning
 tags:
-  - machine-learning
-  - free-courses
-  - career
+  - machine-learning-certification
+  - google
 schema: 
   - article
   - breadcrumb

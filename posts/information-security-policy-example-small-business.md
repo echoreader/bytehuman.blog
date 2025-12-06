@@ -5,11 +5,9 @@ layout: post
 permalink: /information-security-policy-example-small-business/
 date: 2025-11-10
 schema: article
-category: security-policy
+category: network-security
 tags:
-  - information-security
-  - policy-template
-  - risk-management
+  - information-security-policy-examples
 schema: 
   - article
   - breadcrumb

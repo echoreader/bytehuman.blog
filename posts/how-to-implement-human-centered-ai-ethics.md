@@ -4,11 +4,10 @@ description: "Navigate the future of technology with my guide to human-centered 
 layout: post
 permalink: /how-to-implement-human-centered-ai-ethics/
 date: 2025-10-18
-category: ethics
+category: artificial-intelligence
 tags:
-  - human-centered-design
+  - ai-practices
   - ai-ethics
-  - accountability
 schema: 
   - article
   - breadcrumb

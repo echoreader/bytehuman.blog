@@ -4,11 +4,11 @@ description: "Uncover the timeline for learning artificial intelligence. Get ins
 layout: post
 permalink: /how-long-does-it-take-to-learn-artificial-intelligence/
 date: 2025-10-30
-category: learning-path
+category: artificial-intelligence
 tags:
-  - ai-learning
-  - beginner-guide
-  - curriculum
+  - ai
+  - skill-levels
+  - study-methods
 schema: 
   - article
   - breadcrumb
