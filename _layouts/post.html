@@ -7,10 +7,27 @@ layout: default
 {% endcapture %}
 {% assign site_url = site_url | strip %}
 
+{% assign category_links = "artificial-intelligence,network-security,science" | split: "," %}
+{% assign cat = page.category %}
+{% assign has_link = false %}
+
+{% for c in category_links %}
+  {% if c == cat %}
+    {% assign has_link = true %}
+  {% endif %}
+{% endfor %}
 <nav class="text-sm text-gray-600 mb-4">
   <a href="{{ site_url }}/" class="hover:underline">Home</a>
+
   {% if page.category %}
-    &gt; <span class="text-gray-800">{{ page.category }}</span>
+    {% if has_link %}
+      &gt; <a href="{{ site_url }}/category/{{ cat }}/" class="text-gray-800 hover:underline">
+        {{ cat }}
+      </a>
+    {% else %}
+      &gt; <span class="text-gray-800">{{ cat }}</span>
+    {% endif %}
+
     &gt; <span class="text-gray-800 font-semibold">{{ page.title }}</span>
   {% else %}
     &gt; <span class="text-gray-800 font-semibold">{{ page.title }}</span>

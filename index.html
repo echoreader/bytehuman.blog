@@ -10,52 +10,38 @@ schema: organization
   <p>ByteHuman explores the evolving relationship between people and technology. Dive into cultural commentary, human stories, tech reviews, and scientific breakthroughs that illuminate how innovation shapes our connected world.</p>
 </section>
 
+{% capture site_url %}
+  {% include site_url.html %}
+{% endcapture %}
+{% assign site_url = site_url | strip %}
 <!-- ✅ Category Grid -->
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 mb-10">
-  <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C]">
-    <h3 class="font-bold text-[#C15255] mb-1">Technology Ethics</h3>
-    <p class="text-sm">Insights on responsible innovation, AI ethics, and the human impact of emerging tech.</p>
-  </div>
+  <a href="{{ site_url }}/category/artificial-intelligence/">
+    <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C] hover:bg-[#1f1f1f] transition">
+      <h3 class="font-bold text-[#C15255] mb-1">Artificial Intelligence</h3>
+      <p class="text-sm">
+        Deep dives into machine learning, automation, and how AI is reshaping creativity, work, and society.
+      </p>
+    </div>
+  </a>
 
-  <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C]">
-    <h3 class="font-bold text-[#C15255] mb-1">Science</h3>
-    <p class="text-sm">Breakdowns of scientific concepts, discoveries, and the ideas shaping modern research.</p>
-  </div>
+  <a href="{{ site_url }}/category/network-security/">
+    <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C] hover:bg-[#1f1f1f] transition">
+      <h3 class="font-bold text-[#C15255] mb-1">Network Security</h3>
+      <p class="text-sm">
+        Guides on cybersecurity fundamentals, digital safety, threat prevention, and securing modern infrastructures.
+      </p>
+    </div>
+  </a>
 
-  <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C]">
-    <h3 class="font-bold text-[#C15255] mb-1">Hardware Guides</h3>
-    <p class="text-sm">Practical recommendations for laptops, devices, and tools for students and creators.</p>
-  </div>
-
-  <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C]">
-    <h3 class="font-bold text-[#C15255] mb-1">Web Hosting</h3>
-    <p class="text-sm">Reviews and comparisons of hosting platforms for small businesses and creators.</p>
-  </div>
-
-  <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C]">
-    <h3 class="font-bold text-[#C15255] mb-1">Cloud Services</h3>
-    <p class="text-sm">Guides on cloud storage, personal data management, and modern cloud solutions.</p>
-  </div>
-
-  <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C]">
-    <h3 class="font-bold text-[#C15255] mb-1">Security Policies</h3>
-    <p class="text-sm">Clear examples of cybersecurity policies and frameworks for small businesses.</p>
-  </div>
-
-  <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C]">
-    <h3 class="font-bold text-[#C15255] mb-1">Cyber Threats</h3>
-    <p class="text-sm">Explanations of digital threats and how to protect systems in a connected world.</p>
-  </div>
-
-  <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C]">
-    <h3 class="font-bold text-[#C15255] mb-1">Emerging Tech</h3>
-    <p class="text-sm">Exploring quantum computing, biotech, and the technologies shaping the future.</p>
-  </div>
-
-  <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C]">
-    <h3 class="font-bold text-[#C15255] mb-1">Learning Paths</h3>
-    <p class="text-sm">Roadmaps for mastering AI, programming, and essential digital skills.</p>
-  </div>
+  <a href="{{ site_url }}/category/science/">
+    <div class="bg-[#171717] border border-[#C15255] rounded p-4 text-[#F0E68C] hover:bg-[#1f1f1f] transition">
+      <h3 class="font-bold text-[#C15255] mb-1">Science</h3>
+      <p class="text-sm">
+        Clear explanations of scientific principles, discoveries, and the breakthroughs shaping our understanding of the world.
+      </p>
+    </div>
+  </a>
 </div>
 
 <!-- ✅ Centered Button -->

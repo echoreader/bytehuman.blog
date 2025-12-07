@@ -1,0 +1,52 @@
+---
+layout: default
+title: Artificial Intelligence
+description: Master the art of using AI ethically in your studies. Find valuable resources and tips to ensure responsible and effective AI integration in your education.
+---
+
+{% capture site_url %}
+  {% include site_url.html %}
+{% endcapture %}
+{% assign site_url = site_url | strip %}
+
+<section class="flex flex-col gap-6">
+  <h1 class="text-2xl font-bold mb-6">Category: {{ page.title }}</h1>
+
+  {% assign posts = site.html_pages
+    | where_exp: "item", "item.path contains 'posts/'"
+    | where: "category", "artificial-intelligence"
+    | sort: "date"
+    | reverse %}
+
+  {% for post in posts %}
+  <article class="border-4 border-gray-500 rounded-xl shadow-lg overflow-hidden">
+    
+    <div class="bg-gradient-to-b from-[#E0E0E0] to-[#BDBDBD] px-6 py-2">
+      <h2 class="text-2xl font-bold tracking-tight">
+        <a href="{{ site_url }}{{ post.url }}" class="no-underline text-black hover:text-[#C15255]">
+          {{ post.title }}
+        </a>
+      </h2>
+    </div>
+
+    <div class="bg-[#171717] px-6 py-4">
+       <p class="text-sm mb-2 text-[#C15255] flex items-center gap-2">
+        {{ post.date | date: "%B %d, %Y" }}
+
+        {% if post.category %}
+          <span class="text-[#F0E68C]">• {{ post.category }}</span>
+        {% endif %}
+      </p>
+
+      {% if post.description %}
+        <p class="text-base leading-relaxed text-[#F0E68C]">{{ post.description }}</p>
+      {% else %}
+        <p class="text-base leading-relaxed text-[#F0E68C]">
+          {{ post.content | strip_html | truncatewords: 30 }}
+        </p>
+      {% endif %}
+    </div>
+
+  </article>
+  {% endfor %}
+</section>

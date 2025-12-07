@@ -12,4 +12,8 @@ permalink: /sitemap-index.xml
     <loc>{{ "/sitemap-page.xml" | absolute_url }}</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
   </sitemap>
+  <sitemap>
+    <loc>{{ "/sitemap-category.xml" | absolute_url }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+  </sitemap>
 </sitemapindex>
