@@ -86,6 +86,8 @@ Honorable mentions:
 - **Microsoft Surface Laptop Studio 2** (still great if you sketch a lot, but battery and thermals are weaker than ProArt)  
 - **Lenovo Yoga Pro 9i** (killer Mini-LED screen, RTX 4070, usually $400 cheaper than equivalents)
 
+> Also check out [Cheapest Cloud Storage for Personal Use](https://bytehuman.blog/cheapest-cloud-storage-for-personal-use/) — an article that covers a similar topic and complements this one.
+
 ## Best Budget Laptops That Still Get the Job Done (Under ~$1,500)
 
 You don’t need to spend $2,000+. These crush Photoshop/Illustrator/Figma for most student work:

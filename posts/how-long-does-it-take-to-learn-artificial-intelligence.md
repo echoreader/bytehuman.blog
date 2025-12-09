@@ -92,6 +92,8 @@ Here is a consolidated **AI roadmap** with a potential **duration**, assuming de
 | **Months 10-18** | **Deep Learning Enthusiast** | Learn TensorFlow/PyTorch, build CNN and RNN models. Start a **specialization** in NLP or Computer Vision. |
 | **18+ Months** | **Job-Ready Specialist** | Develop a strong portfolio, contribute to open-source, prepare for technical interviews. Embrace **continuous learning**. |
 
+> Also check out [How Many Days to Learn Python?](https://bytehuman.blog/how-many-days-to-learn-python-language/) — an article that covers a similar topic and complements this one.
+
 ## **Conclusion: It's a Marathon, Not a Sprint**
 
 So, how long does it take to learn artificial intelligence? If your goal is to understand the concepts and tinker with code, you can start in a matter of **months**. If your goal is to build a **career path** in AI, view it as a **1 to 2-year** journey to reach a professional starting line.

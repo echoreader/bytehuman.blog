@@ -90,6 +90,8 @@ My take:
 *   **User-Friendly:** It's designed to be accessible, without the technical barrier of something like **SillyTavern**.
 *   **Evolving Platform:** As a newer service, its feature set and model capabilities are still rapidly developing compared to more established players.
 
+> Also check out [AI Tools for Customer Service](https://bytehuman.blog/ai-tools-for-customer-service/) — an article that covers a similar topic and complements this one.
+
 ## How to Choose the Right AI Chatbot for You
 
 So, which one should *you* pick? Based on my experience, here's a simple flow:

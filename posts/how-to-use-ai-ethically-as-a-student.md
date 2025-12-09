@@ -118,6 +118,8 @@ AI tools are helpful, but they cannot replace the value of my own thinking. I us
 
 *AI supports learning, but the learning belongs to me.*
 
+> Also check out [AI Tools for Customer Service](https://bytehuman.blog/ai-tools-for-customer-service/) — an article that covers a similar topic and complements this one.
+
 ## **Bias Awareness and Fairness**
 
 Many AI models can reflect biases found in the data they were trained on. Being aware of this helps me avoid unfair assumptions or incomplete arguments.

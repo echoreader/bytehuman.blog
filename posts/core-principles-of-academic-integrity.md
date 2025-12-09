@@ -54,6 +54,8 @@ I view **Fairness** as two-fold: being fair to my peers and being fair to myself
 
 I rely solely on my own knowledge and preparation. *I remind myself that the learning process is more valuable than a perfect, but dishonest, grade.*
 
+> Also check out [How to Use AI Ethically as a Student](https://bytehuman.blog/how-to-use-ai-ethically-as-a-student/) — an article that covers a similar topic and complements this one.
+
 ## 3. How I Demonstrate **Respect** for **Intellectual Property**
 
 To me, **Respect** means acknowledging the contributions of others and safeguarding their **Intellectual Property**. In the academic world, this translates directly into proper **Citation** and **Referencing**. This is the primary defense against **Plagiarism**.

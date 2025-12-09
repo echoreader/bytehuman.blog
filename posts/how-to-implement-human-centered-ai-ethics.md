@@ -73,6 +73,8 @@ You cannot trust a black box. **Transparency** builds understanding, and **accou
 | **Model Development** | Can we explain the model's outputs? Is there a human review process? | Use Explainable AI (XAI) techniques and design for **Human-in-the-Loop**. |
 | **Deployment & Monitoring** | How do we monitor for drift and unintended consequences? How can users appeal? | Establish continuous monitoring dashboards and create clear user redress channels. |
 
+> Also check out [Core Principles of Academic Integrity](https://bytehuman.blog/core-principles-of-academic-integrity/) — an article that covers a similar topic and complements this one.
+
 ## Key Takeaways: Building a Future of Trust
 
 *   **Human-centered AI is a mindset,** not just a toolkit. It requires constantly asking, "How does this impact people?"

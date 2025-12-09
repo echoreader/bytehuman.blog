@@ -89,6 +89,8 @@ So, how many **days** does it take to **learn Python**? If your goal is to under
 
 But the most important **day** is today the day you start. Don't get paralyzed by the long-term timeline. Focus on the first week. Master the **fundamentals**. Celebrate the small win of a working script. The journey of a thousand miles begins with a single line of code, and that line is `print("Hello, World!")`.
 
+> Also check out [Google Machine Learning Certification (Free)](https://bytehuman.blog/google-machine-learning-certification-free/) — an article that covers a similar topic and complements this one.
+
 ## Frequently Asked Questions (FAQ) on Learning Python
 
 <details>

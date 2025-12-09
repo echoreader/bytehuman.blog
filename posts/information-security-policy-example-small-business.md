@@ -117,6 +117,8 @@ When (not if) something happens, speed wins. My one-page **incident response pla
 
 I run a tabletop drill every six months 30 minutes, pizza provided.
 
+> Also check out [Types of Threats in Network Security](https://bytehuman.blog/types-of-threat-in-network-security/) — an article that covers a similar topic and complements this one.
+
 ## Employee Training: Make It Stick
 
 Policies gather dust without training. I do:

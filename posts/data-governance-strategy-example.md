@@ -70,6 +70,8 @@ This is where we solved the "active customer" debate.
 *   **Business Owner:** Sales Operations Steward.
 We documented this definition, along with its related **metadata** (where it's stored, how it's calculated), in a central glossary everyone could access.
 
+> Also check out [General Data Protection Regulation (GDPR) Checklist](https://bytehuman.blog/general-data-protection-regulation-checklist/) — an article that covers a similar topic and complements this one.
+
 ### Phase 3: Implementation & Measurement (Ongoing)
 
 **5. Implement Data Quality Checks**

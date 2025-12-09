@@ -105,6 +105,8 @@ Not every company needs one, but you must know if you do.
 | **Vendor Management** | Vet your processors. | Signed Data Processing Agreements (DPAs). |
 | **Security** | Protect the data. | IT security policies and training records. |
 
+> Also check out [Data Governance Strategy Example](https://bytehuman.blog/data-governance-strategy-example/) — an article that covers a similar topic and complements this one.
+
 ## Key Takeaways
 
 *   **GDPR is Global:** It applies to you if you target or monitor EU citizens, regardless of your location.

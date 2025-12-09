@@ -99,6 +99,8 @@ Ready to launch? Here's my step-by-step from scratch took me under an hour with 
 - Skipping *scalability* led to crashes during ads.
 - Ignoring *server resources* upgrading early saved headaches.
 
+> Also check out [Information Security Policy Example for Small Businesses](https://bytehuman.blog/information-security-policy-example-small-business/) — an article that covers a similar topic and complements this one.
+
 ## Scaling Your Hosting as Your Business Grows
 
 My store started with 50 orders/month; now it's 500. *Shared hosting* worked initially, but *VPS hosting* via SiteGround gave dedicated *server resources* for inventory syncs. Watch for traffic thresholds most hosts alert you. For U.S. businesses, edge servers in multiple states ensure *fast page speed* coast-to-coast.

@@ -52,6 +52,8 @@ Beyond the core courses, Google Cloud Skills Boost offers "Quests" curated seque
 | **BigQuery for Machine Learning** | Using SQL to create and execute **ML** models directly in a data warehouse. | Intermediate |
 | **ML Pipelines on Google Cloud** | Building automated, production-ready **ML** workflows. | Advanced |
 
+> Also check out [How Long Does It Take to Learn AI?](https://bytehuman.blog/how-long-does-it-take-to-learn-artificial-intelligence/) — an article that covers a similar topic and complements this one.
+
 ## How to Showcase Your Free Google Training
 
 Since you won't have the official certificate initially, you need to strategically demonstrate your competency. Here’s how I did it:

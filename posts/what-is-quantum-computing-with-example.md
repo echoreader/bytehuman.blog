@@ -71,6 +71,8 @@ Let's move from abstract theory to tangible applications. Here are three example
 *   **The Quantum Approach:** A **quantum computer** can naturally mimic another quantum system, like a molecule. We can map the electrons in a molecule onto **qubits**. By carefully controlling these **qubits**, we can simulate the molecule's behavior, allowing us to discover new pharmaceuticals or design more efficient batteries without the cost and time of physical experiments.
 *   **The Visual Metaphor:** It's the difference between trying to describe the complex flow of a hurricane using only text (a classical simulation) versus building a precise, scaled-down physical model in a wind tunnel (a **quantum simulation**). The model captures the physics more directly and naturally.
 
+> Also check out [Father of Modern Nanotechnology](https://bytehuman.blog/father-of-modern-nanotechnology/) — an article that covers a similar topic and complements this one.
+
 ## Practical Applications Today
 
 While fault-tolerant, large-scale quantum computers are still years away, the Noisy Intermediate-Scale Quantum (NISQ) era we're in today is already yielding promising applications:

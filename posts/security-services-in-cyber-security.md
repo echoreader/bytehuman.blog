@@ -164,6 +164,8 @@ Let’s look at what’s goin’ on in the cyber world lately — and why securi
     
 *   **Only 38% of companies** say they’re confident in their current security.  
     statista.com
+
+> Also check out [Types of Threats in Network Security](https://bytehuman.blog/types-of-threat-in-network-security/) — an article that covers a similar topic and complements this one.
     
 🧠 So What _Are_ Security Services in Cyber Security?
 -----------------------------------------------------
